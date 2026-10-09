@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.DaimyoVegan/xrplme",
+  "title": "XRPLME Country Economic Data",
+  "description": "30-country economic data for AI agents. Free discovery + x402 pay-per-call on XRPL/Solana.",
+  "version": "1.0.0",
+  "websiteUrl": "https://xrplme.online",
+  "repository": {
+    "url": "https://github.com/DaimyoVegan/xrplme-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.xrplme.online/mcp"
+    }
+  ]
+}
