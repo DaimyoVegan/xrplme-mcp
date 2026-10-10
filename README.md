@@ -18,16 +18,16 @@ Add to your MCP client config:
 
 ## Pricing
 
-| Tool | Free | Standard (x402) | AI (x402) |
-|------|------|-----------------|-----------|
-| `xrplme_list_countries` | free | — | — |
-| `xrplme_get_country_data_summary` | free | — | — |
-| `xrplme_get_country_data` | — | 0.1 XRP / 0.05 USDC | 0.5 XRP / 0.25 USDC |
-| `get_country_schema` | — | 0.1 XRP / 0.05 USDC | — |
-| `get_country_data_health` | free | — | — |
-| `get_country_data_pricing` | free | — | — |
+| Tool | Free | Country Brief (x402) | Deep Concierge (x402) | Custom Bounded (x402) |
+|------|------|---------------------|----------------------|-----------------------|
+| `xrplme_list_countries` | free | — | — | — |
+| `xrplme_get_country_data_summary` | free | — | — | — |
+| `xrplme_get_country_data` | — | 0.1 XRP / 0.50 USDC | 5 XRP / 5.00 USDC | 10-15 XRP / 10-15 USDC |
+| `get_country_schema` | — | 0.1 XRP / 0.50 USDC | — | — |
+| `get_country_data_health` | free | — | — | — |
+| `get_country_data_pricing` | free | — | — | — |
 
-Pay via XRPL (XRP) or Solana (USDC). The MCP server returns a 402 with both payment options.
+Pay via XRPL (XRP) or Solana (USDC). The MCP server returns a 402 with both payment options. Three tiers: country_brief (0.1 XRP / 0.50 USDC), deep_concierge (5 XRP / 5.00 USDC), custom_bounded (10-15 XRP / 10-15 USDC).
 
 ## Available Tools
 
@@ -49,6 +49,6 @@ All 30 countries: australia, brazil, brunei, canada, france, germany, hong_kong,
 
 - **Website:** https://xrplme.online
 - **MCP Endpoint:** https://api.xrplme.online/mcp
-- **x402 Solana routes:** https://xrplme.online/wc/v1/{country}/bot-solana[/ai]
+- **x402 Solana routes:** https://xrplme.online/wc/v1/{country}/bot-solana[ /ai /custom ]
 - **x402 XRPL routes:** https://xrplme.online/wc/v1/{country}/bot[/ai]
 - **Registry entry:** io.github.DaimyoVegan/xrplme
