@@ -22,12 +22,12 @@ Add to your MCP client config:
 |------|------|---------------------|----------------------|-----------------------|
 | `xrplme_list_countries` | free | — | — | — |
 | `xrplme_get_country_data_summary` | free | — | — | — |
-| `xrplme_get_country_data` | — | 0.1 XRP / 0.50 USDC | 5 XRP / 5.00 USDC | 10-15 XRP / 10-15 USDC |
-| `get_country_schema` | — | 0.1 XRP / 0.50 USDC | — | — |
+| `xrplme_get_country_data` | — | 1 XRP / 1.00 USDC | 5 XRP / 7.00 USDC | 15 XRP / 15.00 USDC |
+| `get_country_schema` | — | 1 XRP / 1.00 USDC | — | — |
 | `get_country_data_health` | free | — | — | — |
 | `get_country_data_pricing` | free | — | — | — |
 
-Pay via XRPL (XRP) or Solana (USDC). The MCP server returns a 402 with both payment options. Three tiers: country_brief (0.1 XRP / 0.50 USDC), deep_concierge (5 XRP / 5.00 USDC), custom_bounded (10-15 XRP / 10-15 USDC).
+Pay via XRPL (XRP) or Solana (USDC). The MCP server returns a 402 with both payment options. Three tiers: country_brief (1 XRP / 1.00 USDC), deep_concierge (5 XRP / 7.00 USDC), custom_bounded (15 XRP / 15.00 USDC).
 
 ## Available Tools
 
